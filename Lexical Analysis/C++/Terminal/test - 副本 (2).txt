@@ -1,0 +1,30 @@
+#include<iostream>
+ /*
+ test
+ again
+ and
+ again
+ */
+ # define t 10
+
+int main()
+{
+	float hello_123;
+	hello_123=321987;
+	char ch='c';
+	char str[]="is string";
+	if( hello_123>100)
+		hello_123=100;
+	else
+		hello_123=0;
+	for(int i=0;i<10;i++)
+	{
+		i++;
+	}
+	while(hello_123!=0)
+	{
+		hello_123--;
+	}
+
+	return 0;		//end
+}

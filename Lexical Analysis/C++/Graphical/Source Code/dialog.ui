@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QWidget" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>562</width>
+    <height>427</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>541</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>可识别的词法</string>
+    </property>
+   </column>
+   <item>
+    <property name="text">
+     <string>关键字</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>main   主函数名</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>if   分支</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>else   分支</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>do   循环</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>while   循环</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>for   循环</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>switch   分支</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>case   分支</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>default   分支</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>break   跳出</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>continue   继续</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>int   整型</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>char   字符型</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>float   单精度浮点型</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>double   双精度浮点型</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>void   空类型</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>bool   布尔类型</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>struct   结构体</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>class   类</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>const   常变量</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>unsigned   无符号</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>return   返回</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>include   包含头文件</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>define   宏定义</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NULL   空值</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>符号</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>运算符</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>+   加</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>-   减</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>*   乘、指针</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>/   除</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>%   模</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>=   赋值</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>&gt;   大于</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>&lt;  小于</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>==  等于</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>&gt;=   大于等于</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>&lt;=   小于等于</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>++   自加1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>--   自减1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>!=   不等于</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>&amp;&amp;   逻辑与</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>||   逻辑或</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>&amp;   按位与、引用、取地址</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>|   按位或</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>!   逻辑非</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>~   按位取反</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>^   按位异或</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>&gt;&gt;   逻辑右移、输入流</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>&lt;&lt;   逻辑左移、输出流</string>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>界符</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>#   包含头文件、宏定义</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>:  </string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>?</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>;   句尾分号</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>(   左括号</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>)   右括号</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>{   左花括号</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>}   右花括号</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>[   左方括号</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>]   右方括号</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>.   小数点、结构体和类的成员</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>'   单引号</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>&quot;   双引号</string>
+      </property>
+     </item>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>常量</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>整数</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>浮点数</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>变量</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>字母或下划线开头，可包含字母、数字、下划线</string>
+     </property>
+    </item>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

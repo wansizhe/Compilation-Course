@@ -1,0 +1,18 @@
+int main()
+{
+    int a=10;
+    float b=-123.321;
+    double c;
+    if (a==10||a!=100)
+        c=a+b;
+    else
+        c=a*b;
+    while(a<100)
+    {
+	if(a<0)
+	    break;
+	a=a+(b+c)%10;
+    }
+    //GET A+B
+    return c;
+}
